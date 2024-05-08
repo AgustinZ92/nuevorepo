@@ -18,7 +18,7 @@ getCharacters(data => {
                 <img src="${personaje.image}" alt="Personaje">
 
             </div>
-            <h2>${personaje.name}</h2>
+            <h3>${personaje.name}</h3>
             <span>${personaje.status}</span>
 
         </article>       
