@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>TimeWatch</title>
+  <link rel="icon" href="Imagenes/ico.png" type="Imagenes">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+  <link rel="stylesheet" href="todo_css/home.css">
+  <link rel="stylesheet" href="https://fonts.google.com/specimen/Sedan+SC?categoryFilters=Serif:%2FSerif%2FOld+Style+Garalde">
+  <link rel="stylesheet" href="https://fonts.google.com/specimen/Quintessential?categoryFilters=Feeling:%2FExpressive%2FSophisticated">
+</head>
+<body>
+  <header class="header">
+    <div class="container header-inner">
+      <div class="logo">
+        <a href="home.html"><img src="https://cdn.create.vista.com/downloads/a4ca08ec-0385-4c01-95fa-aecf24eeec78_1024.jpeg" width="150" height="150" alt="Mi tienda"></a>
+      </div>
+      <nav class="nav">
+        <a href="home.html">Inicio</a>
+        <a href="#">Catálogo</a>
+        <a href="#">Ofertas</a>
+        <a href="#">Contacto</a>
+      </nav>
+      <div class="spacer"></div>
+      <!-- LUEGO VER EL COMO HACERLO 
+       <div class="search">
+        <span class="icon">🔍</span>
+        <input type="text" placeholder="Buscar productos (visual)"/>
+      </div>-->
+      <a class="btn" href="login.html">
+         <i class="fa-solid fa-user"></i>
+    </a> 
+      <a class="btn2" href="cart.html"> <!-- CON EL LINK DE FONT TRAJE EL CARRITO-->
+        <i class="fa-solid fa-cart-shopping">      
+        </i>
+      </a>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <div>
+        <div class="centrar"> 
+          <h1>Relojes para todos los estilos</h1>
+          <p>Elegí entre diseños clásicos, deportivos y minimalistas. Calidad premium y envío a todo el país.</p>
+        </div>
+        <div class="cta-row">
+          <a class="btn primary" href="#productos">Ver productos</a>
+          <a class="btn" href="checkout.html">Información personal</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="productos">
+      <div class="section-title">
+        <h2 class="Pr">Productos</h2>
+        <div class="tabs">
+          <button class="tab active">Todos</button>
+          <button class="tab">Destacados</button>
+          <button class="tab">Ofertas</button>
+        </div>
+      </div>
+
+      <div class="grid grid-3">
+        <!-- Card 1 -->
+        <article class="card">
+          <div style="position:relative">
+            <img src="https://images.unsplash.com/photo-1524805444758-089113d48a6d?q=80&w=1200&auto=format&fit=crop" width="380" height="400" alt="Reloj Clásico"/>
+            <!--<div class="tag-row">
+              <span class="badge">Nuevo</span>
+              <span class="badge">Envío gratis</span>
+            </div>
+            <div class="favorite">♡</div>
+          </div>  PROBAR EN OTRA VERSION-->
+          <div class="card-body">
+            <h3>Reloj Clásico Acero</h3>
+            <div class="stars">★ 4.6</div>
+            <div class="price">$20.500</div>
+            <div style="margin-top:10px;display:flex;gap:10px">
+              <a class="btn" href="detail.html">Ver detalle</a>
+              <a class="btn primary" href="cart.html">Agregar</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Card 2 -->
+        <article class="card">
+          <div style="position:relative">
+            <img src="Imagenes/reloj_2.jpg" width="380" height="400"  alt="Reloj Clásico"/>
+            <!--<div class="tag-row">
+              <span class="badge">Nuevo</span>
+              <span class="badge">Envío gratis</span>
+            </div>
+            <div class="favorite">♡</div>
+          </div>  PROBAR EN OTRA VERSION-->
+          <div class="card-body">
+            <h3>Reloj Clásico Moderno</h3>
+            <div class="stars">★ 4.6</div>
+            <div class="price">$25.999</div>
+            <div style="margin-top:10px;display:flex;gap:10px">
+              <a class="btn" href="detail.html">Ver detalle</a>
+              <a class="btn primary" href="cart.html">Agregar</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Card 3 -->
+        <article class="card">
+          <div style="position:relative">
+            <img src="Imagenes/PAGRNE DESIGN Reloj de Pulsera Hombre Elegante Casual Analógico Cuarzo Reloj Cronógrafo Impermeable.jpg" width="400" height="400"   alt="Reloj Clásico"/>
+            <!--<div class="tag-row">
+              <span class="badge">Nuevo</span>
+              <span class="badge">Envío gratis</span>
+            </div>
+            <div class="favorite">♡</div>
+          </div>  PROBAR EN OTRA VERSION-->
+          <div class="card-body">
+            <h3>Reloj Cronógrafo Blue Royal Edition</h3>
+            <div class="stars">★ 4.6</div>
+            <div class="price">$52.999</div>
+            <div style="margin-top:10px;display:flex;gap:10px">
+              <a class="btn" href="detail.html">Ver detalle</a>
+              <a class="btn primary" href="cart.html">Agregar</a>
+            </div>
+          </div>
+        </article>
+        
+        <!-- Card 4 -->
+        <article class="card">
+          <div style="position:relative">
+            <img src="Imagenes/reloj_4.jpg" width="380" height="400" alt="Reloj Clásico"/>
+            <!--<div class="tag-row">
+              <span class="badge">Nuevo</span>
+              <span class="badge">Envío gratis</span>
+            </div>
+            <div class="favorite">♡</div>
+          </div>  PROBAR EN OTRA VERSION-->
+          <div class="card-body">
+            <h3>Festina Diver Steel Pro – Edición Azul</h3>
+            <div class="stars">★ 4.6</div>
+            <div class="price">$50.999</div>
+            <div style="margin-top:10px;display:flex;gap:10px">
+              <a class="btn" href="detail.html">Ver detalle</a>
+              <a class="btn primary" href="cart.html">Agregar</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Card 5 -->
+        <article class="card">
+          <div style="position:relative">
+            <img src="Imagenes/reloj_5.jpg" width="380" height="400" alt="Reloj Clásico"/>
+            <!--<div class="tag-row">
+              <span class="badge">Nuevo</span>
+              <span class="badge">Envío gratis</span>
+            </div>
+            <div class="favorite">♡</div>
+          </div>  PROBAR EN OTRA VERSION-->
+          <div class="card-body">
+            <h3>Chrono Racing Yellow Edition</h3>
+            <div class="stars">★ 4.6</div>
+            <div class="price">$60.999</div>
+            <div style="margin-top:10px;display:flex;gap:10px">
+              <a class="btn" href="detail.html">Ver detalle</a>
+              <a class="btn primary" href="cart.html">Agregar</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Card 6 -->
+        <article class="card">
+          <div style="position:relative">
+            <img src="Imagenes/reloj_6.jpg" width="380" height="400" alt="Reloj Clásico"/>
+            <!--<div class="tag-row">
+              <span class="badge">Nuevo</span>
+              <span class="badge">Envío gratis</span>
+            </div>
+            <div class="favorite">♡</div>
+          </div>  PROBAR EN OTRA VERSION-->
+          <div class="card-body">
+            <h3>Reloj Digital Active Pro</h3>
+            <div class="stars">★ 4.6</div>
+            <div class="price">$55.000</div>
+            <div style="margin-top:10px;display:flex;gap:10px">
+              <a class="btn" href="detail.html">Ver detalle</a>
+              <a class="btn primary" href="/cart.html">Agregar</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Card 7 -->
+        <article class="card">
+          <div style="position:relative">
+            <img src="Imagenes/1 Pieza Reloj De Cuarzo Plateado De Acero Inoxidable Para Hombre En Estilo De Negocios De Moda Y 1 Pulsera De Acero Inoxidable.jpg" width="380" height="400" alt="Reloj Deportivo"/>
+            <!--<div class="tag-row">
+              <span class="badge">Nuevo</span>
+              <span class="badge">Envío gratis</span>
+            </div>
+            <div class="favorite">♡</div>
+          </div>  PROBAR EN OTRA VERSION-->
+          <div class="card-body">
+            <h3>Reloj Elegance Quartz</h3>
+            <div class="stars">★ 4.8</div>
+            <div class="price">$72.999</div>
+            <div style="margin-top:10px;display:flex;gap:10px">
+              <a class="btn" href="detail.html">Ver detalle</a>
+              <a class="btn primary" href="cart.html">Agregar</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Card 8 -->
+        <article class="card">
+          <div style="position:relative">
+            <img src="Imagenes/1 pieza Hombres Reloj cuarzo de puntero redondo & 1 pieza Pulsera de cadena.jpg" width="380" height="400" alt="Reloj Minimal"/>
+            <!--<div class="tag-row">
+              <span class="badge">Nuevo</span>
+              <span class="badge">Envío gratis</span>
+            </div>
+            <div class="favorite">♡</div>
+          </div>  PROBAR EN OTRA VERSION-->
+          <div class="card-body">
+            <h3>Midnight Black Steel</h3>
+            <div class="stars">★ 4.4</div>
+            <div class="price">$45.999</div>
+            <div style="margin-top:10px;display:flex;gap:10px">
+              <a class="btn" href="detail.html">Ver detalle</a>
+              <a class="btn primary" href="cart.html">Agregar</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div>
+        <strong>© 2025 TimeWatch </strong><br/>
+        <span>Todos los derechos reservados.</span>
+      </div>
+      <div style="display:flex;gap:16px">
+        <a href="#">Privacidad</a>
+        <a href="#">Términos</a>
+        <a href="#">Soporte</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
+
+<!-- en otra version probar lo de favoritos-->

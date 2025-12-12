@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Inicio Sesion</title>
+  <link rel="icon" href="Imagenes/ico.png" type="Imagenes">
+  <link rel="stylesheet" href="todo_css/login.css"/>
+  <link rel="stylesheet" href="https://fonts.google.com/specimen/Sedan+SC?categoryFilters=Serif:%2FSerif%2FOld+Style+Garalde">
+  <link rel="stylesheet" href="https://fonts.google.com/specimen/Quintessential?categoryFilters=Feeling:%2FExpressive%2FSophisticated">
+</head>
+<body>
+  <header class="header">
+    <div class="container header-inner">
+      <div class="logo">
+        <a href="home.html"><img src="https://cdn.create.vista.com/downloads/a4ca08ec-0385-4c01-95fa-aecf24eeec78_1024.jpeg" width="150" height="150" alt="Mi tienda"></a>
+      </div>
+      <nav class="nav">
+        <a href="home.html">Inicio</a>
+        <a href="#">Catálogo</a>
+        <a href="#">Ofertas</a>
+        <a href="#">Contacto</a>
+      </nav>
+      <div class="spacer"></div>
+      <a class="btn" href="register.html">Crear cuenta</a>
+    </div>
+  </header>
+
+  <main class="container">
+    <div class="auth">
+      <div class="auth-card">
+        <form id="InicioSecion">
+        <h1>Ingresar</h1>
+        <p class="helper">Accedé a tu cuenta para continuar con tu compra.</p>
+
+        <div class="field">
+          <label for="Email">Email</label>
+          <input id="Email" class="input" type="email" placeholder="correo@email.com" required/>
+        </div>
+
+        <div class="field">
+          <label for="password">Contraseña</label>
+          <input id="password" class="input" type="password" placeholder="••••••••" required/>
+        </div>
+
+        <div class="actions">
+          <a class="btn link" href="#">¿Olvidaste tu contraseña?</a>
+          <button class="Boton_sub" type="submit">Iniciar Sesión</button>
+        </div>
+      </form>
+      </div>
+      <p class="center helper">¿No tenés cuenta? <a href="register.html" style="text-decoration:underline">Crear cuenta</a></p>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div>
+        <strong>© 2025 TimeWatch </strong><br/>
+        <span>Todos los derechos reservados.</span>
+      </div>
+      <div style="display:flex;gap:16px">
+        <a href="#">Privacidad</a>
+        <a href="#">Términos</a>
+        <a href="#">Soporte</a>
+      </div>
+    </div>
+  </footer>
+  <script src="todo_js/iniciar.js"></script>
+</body>
+</html>
